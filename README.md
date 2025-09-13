@@ -99,8 +99,7 @@ humanities research questions.
 Bibliography
 
 jstoeriko. (2023, September 19). Erkennen von Varianten historischer Werbeanzeigen mit CLIP und
-ChromaDB. Göttingen Edition Lab. Retrieved March 14, 2025, from https://editionlab.hypoth-
-eses.org/304
+ChromaDB. Göttingen Edition Lab. Retrieved March 14, 2025, from https://editionlab.hypotheses.org/304
 
 Lee, B., & Weld, D. (2020). Newspaper Navigator: Open Faceted Search for 1.5 Million Images. UIST
 ‘20 Adjunct: Proceedings of the 33rd Annual ACM Symposium on User Interface Software and
