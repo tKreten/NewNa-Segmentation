@@ -1,6 +1,8 @@
 Featured in the Book of Abstracts, DARIAH AE 2025 | The Past
 https://doi.org/10.5281/zenodo.16411471
 
+Important: The app needs model_weights.pth in the backend folder to run
+
 This app was written and tested with Python 3.12
 
 Installation:
