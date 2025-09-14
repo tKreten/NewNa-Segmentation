@@ -8,17 +8,9 @@ Important: The app needs model_weights.pth in the backend folder to run
 
 This app was written and tested with Python 3.12
 
-**
-
 # Installation:
 
-**
-
-**
-
 ## Backend:
-
-** 
 
  - Open the path of the backend folder of the repository in your terminal
 
