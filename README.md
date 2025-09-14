@@ -1,6 +1,11 @@
 Featured in the Book of Abstracts, DARIAH AE 2025 | The Past
 https://doi.org/10.5281/zenodo.16411471
 
+Project by Tobias Kreten and Svend Göke, supervised by Johanna Störiko as part of the Master's program in Digital Humanities at the University of Göttingen.
+
+Sample pages retrieved from the University of Heidelberg.
+https://digi.ub.uni-heidelberg.de/diglit/jugend
+
 Important: The app needs model_weights.pth in the backend folder to run
 
 This app was written and tested with Python 3.12
