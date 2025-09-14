@@ -8,36 +8,55 @@ Important: The app needs model_weights.pth in the backend folder to run
 
 This app was written and tested with Python 3.12
 
-Installation:
+**
 
-Backend:
-Open the path of the backend folder of the repository in your terminal
+# Installation:
 
-Create a virtual environment:
+**
 
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt | make sure that all packages support are supported by your Python version
+**
+
+## Backend:
+
+** 
+
+ - Open the path of the backend folder of the repository in your terminal
+
+**Create a virtual environment:**
+
+ - python3 -m venv venv
+ - source venv/bin/activate
+ - pip install -r requirements.txt | make sure that all packages support
+   are supported by your Python version
+
 Configure Database credentials in the code
 
-Set up Database:
-Required: 
-Install and initalize the MySQL-Server. 
-Recommended: Install MySQLWorkbench.
-Adjust the respective paths in the database.py file. 
-Change the MySQL database credentials and set your own values for the host, user, password, and database (Make sure that the input data matches the credentials used when setting up the MySQL server).
-Run the database.py code.
+**Set up Database:**
+***Required:*** 
+
+ - Install and initalize the MySQL-Server.
+ - Recommended: Install MySQLWorkbench.
+ - Adjust the respective paths in the database.py file.
+ - Change the MySQL database credentials and set your own values for the
+   host, user, password, and database (Make sure that the input data
+   matches the credentials used when setting up the MySQL server).
+ - Run the database.py code.
+
 Start MySQLWorkbench if you want to check the setup.
 
-Frontend:
-node.js is required
-npm install (installs the package.json dependencies for react)
+## **Frontend:**
 
-Start the App:
-flask run (starts the backend on localhost:5000)
-npm start (starts the frontend on localhost:3000)
+*node.js is required*
 
-About the NewNa Segmentation App
+ - npm install (installs the package.json dependencies for react)
+
+**Start the App:**
+
+ - flask run (starts the backend on localhost:5000)
+
+ - npm start (starts the frontend on localhost:3000)
+
+# **About the NewNa Segmentation App**
 
 This app makes use of and draws inspiration from the Newspaper Navigator by Benjamin Charles Germain Lee 
 https://github.com/LibraryOfCongress/newspaper-navigator
@@ -60,7 +79,7 @@ You can download the annotations in a structured JSON file in the coco format an
 Database Mode requires you to have a running MySQL Server in the background. We provide the codes for an exemplary setup of a large collection of
 "Die Jugend", a historical German Magazine. In this mode you can directly save edits into this database and display a ground truth (when existing for the page/not available in the current release).
 
-Abstract of the Project:
+# Abstract of the Project:
 
 This project, titled NewNa Segmentation App, evaluated the zero-shot capabilities of an existing De-
 tectron2 model and developed an application to facilitate manual correction and expand training data to
@@ -101,7 +120,7 @@ This flexibility offers a promising avenue for further research in automated doc
 ital humanities. The NewNa Segmentation App is not just a technical innovation but a tool that enhances
 humanities research questions.
 
-Bibliography
+# Bibliography
 
 jstoeriko. (2023, September 19). Erkennen von Varianten historischer Werbeanzeigen mit CLIP und
 ChromaDB. Göttingen Edition Lab. Retrieved March 14, 2025, from https://editionlab.hypotheses.org/304
